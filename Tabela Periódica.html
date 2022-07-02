@@ -1,349 +1,1210 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
     <title>Tabela Periódica</title>
-        <style>
-            body{
-                background-color: rgb(255, 255, 255);
-                font-family: Open Sans,Geneva,sans-serif;
-    font-size: 12px;
-    line-height: 1.45;
-    font-style: normal;
-    -webkit-font-smoothing: subpixel-antialiased;
-    vertical-align: baseline;
-    margin: 100px;
-    padding: 10;
-    outline: 100;
-    border: 0;
-    background: 0 0;
-    
-    
-            }
+  </head>
+  <div>
+    <table>
+      <!-- Creating a table with the headings of the table. -->
+      <thead>
+        <tr>
+          <caption>
+            Tabela Periódica
+          </caption>
+          <th>01</th>
+          <th>02</th>
+          <th>03</th>
+          <th>04</th>
+          <th>05</th>
+          <th>06</th>
+          <th>07</th>
+          <th>08</th>
+          <th>09</th>
+          <th>10</th>
+          <th>11</th>
+          <th>12</th>
+          <th>13</th>
+          <th>14</th>
+          <th>15</th>
+          <th>16</th>
+          <th>17</th>
+          <th>18</th>
+        </tr>
+      </thead>
 
-          .vermelha{
-            background-color: rgb(254, 79, 79);
-            border-radius: 4px;
-          }
-
-          .vermelha:hover{
-            background-color:red;
-
-          }
-          .laranja{background-color: rgb(245, 144, 107);
-            border-radius: 4px;
-        }
-        
-        .laranja:hover{
-            background-color: orange;
-        }
-        .amarelo{
-            background-color: rgb(242, 240, 123);
-            border-radius: 4px;
-        }
-        .amarelo:hover{
-            background-color: rgb(246, 221, 84);
-        }
-        .verde{
-            background-color: rgb(135, 254, 135);
-            border-radius: 4px;
-        }
-        .verde:hover{
-            background-color: greenyellow
-        }
-        .ciano{
-            background-color: aquamarine;
-            border-radius: 4px;
-        }
-        .ciano:hover{
-            background-color: aqua;
-        }
-        .azul{
-            background-color: rgb(73, 163, 247);
-            border-radius: 4px;
-        }
-        .azul:hover{
-            background-color: rgb(0, 187, 255);
-        }
-        .roxo{
-            background-color: rgb(170, 91, 244);
-            border-radius: 4px;
-        }
-        .roxo:hover{
-            background-color: blueviolet;
-        }
-        .lilás{
-            background-color: rgba(227, 224, 249, 0.967);
-            border-radius: 4px;
-        }
-        .lilás:hover{
-            background-color: darkgray;
-        }
-        .rosa{
-            background-color: pink;
-            border-radius: 4px;
-           }
-           .rosa:hover{
-            background-color: palevioletred;
-           }
-        .magenta{
-            background-color: rgb(236, 92, 205);
-            border-radius: 4px;
-        }
-        .magenta:hover{
-            background-color: rgb(242, 55, 217);
-        }
-        .neon{
-            background-color: deeppink;
-            border-radius: 4px;
-        }
-        .neon:hover{
-            background-color: blueviolet;
-        }
-        </style>
-</head>
-<body>
-    <table border="0">
-
-        <tr><!-- primeira linha --> 
-            <td 
-            class="ciano" >1<br>H<br> <p><a href = "https://pt.kle.cz/pt_BR/hidrogenio.html" >Hidrogênio</a> </p></td>
-                <td colspan="16"></td>
-                <td class="roxo">2<br>He<br> <p><a href = "https://pt.kle.cz/pt_BR/helio.html" >Helio</a> </p></td>
-  </tr>
-  <tr><!-- segunda linha --> 
-    <td class="laranja">3<br>Li<br> <p><a href = "https://pt.kle.cz/pt_BR/litio.html" >Litio</a> </p></td>
-    <td class="vermelha">4<br>Be<br> <p><a href = "https://pt.kle.cz/pt_BR/berilio.html" >Berilio</a> </p></td>
-    <td colspan= "10" ></td>
-    <td class="rosa">5<br>B<br><p><a href = "https://pt.kle.cz/pt_BR/boro.html" >Boro</a> </p></td>
-    <td class="ciano">6<br>C<br> <p><a href = "https://pt.kle.cz/pt_BR/carbono.html" >Carbono</a> </p></td>
-    <td class="ciano">7<br>N<br> <p><a href = "https://pt.kle.cz/pt_BR/nitrogenio.html" >Nitrogênio</a> </p></td>
-    <td class="ciano">8<br>O<br> <p><a href = "https://pt.kle.cz/pt_BR/oxigenio.html" >Oxigênio</a> </p></td>
-    <td class="azul">9<br>F<br> <p><a href = "https://pt.kle.cz/pt_BR/fluor.html" >Flúor</a> </p></td>
-    <td class="roxo">10<br>Ne<br> <p><a href = "https://pt.kle.cz/pt_BR/neon.html" >Neônio</a> </p></td>
-</tr>
-<tr><!-- terceira linha --> 
-    <td class="laranja">11<br>Na<br> <p><a href = "https://pt.kle.cz/pt_BR/sodio.html" >Sódio</a> </p></td>
-    <td class="vermelha">12<br>Mg<br> <p><a href = "https://pt.kle.cz/pt_BR/magnesio.html" >Magnésio</a> </p></td>
-    <td colspan= "10" ></td>
-    <td class="verde">13<br>Al<br> <p><a href = "https://pt.kle.cz/pt_BR/aluminio.html" >Alumínio</a> </p></td>
-    <td class="rosa">14<br>Si<br> <p><a href = "https://pt.kle.cz/pt_BR/silicio.html" >Silício</a> </p></td>
-    <td class="ciano">15<br>P<br> <p><a href = "https://pt.kle.cz/pt_BR/fosforo.html" >Fósforo</a> </p></td>
-    <td class="ciano">16<br>S<br> <p><a href = "https://pt.kle.cz/pt_BR/enxofre.html" >Enxofre</a> </p></td>
-    <td class="azul">17<br>Cl<br> <p><a href = "https://pt.kle.cz/pt_BR/cloro.html" >Cloro</a> </p></td>
-    <td class="roxo">18<br>Ar<br> <p><a href = "https://pt.kle.cz/pt_BR/argonio.html" >Argônio</a> </p></td>
-    <tr><!-- quarta linha --> 
-        <td class="laranja">19<br>K<br> <p><a href = "https://pt.kle.cz/pt_BR/potassio.html" >Potássio</a> </p></td>
-        <td class="vermelha">20<br>Ca<br> <p><a href = "https://pt.kle.cz/pt_BR/calcio.html" >Cálcio</a> </p></td>
-        <td class="amarelo">21<br>Sc<br> <p><a href = "https://pt.kle.cz/pt_BR/escandio.html" >Escândio</a> </p></td>
-        <td class="amarelo">22<br>Ti<br> <p><a href = "https://pt.kle.cz/pt_BR/titanio.html" >Titânio</a> </p></td>
-        <td class="amarelo">23<br>V<br> <p><a href = "https://pt.kle.cz/pt_BR/vanadio.html" >Vanádio</a> </p></td>
-        <td class="amarelo">24<br>Cr<br> <p><a href = "https://pt.kle.cz/pt_BR/cromio.html" >Cromo</a> </p></td>
-        <td class="amarelo">25<br>Mn<br> <p><a href = "https://pt.kle.cz/pt_BR/manganes.html" >Manganês</a> </p></td>
-        <td class="amarelo">26<br>Fe<br> <p><a href = "https://pt.kle.cz/pt_BR/ferro.html" >Ferro</a> </p></td>
-        <td class="amarelo">27<br>Co<br> <p><a href = "https://pt.kle.cz/pt_BR/cobalto.html" >Cobalto</a> </p></td>
-        <td class="amarelo">28<br>Ni<br> <p><a href = "https://pt.kle.cz/pt_BR/niquel.html" >Níquel</a> </p></td>
-        <td class="amarelo">29<br>Cu<br> <p><a href = "https://pt.kle.cz/pt_BR/cobre.html" >Cobre</a> </p></td>
-        <td class="amarelo">30<br>Zn<br> <p><a href = "https://pt.kle.cz/pt_BR/zinco.html" >Zinco</a> </p></td>
-        <td class="verde">31<br>Ga<br> <p><a href = "https://pt.kle.cz/pt_BR/galio.html" >Gálio</a> </p></td>
-        <td class="rosa">32<br>Ge<br> <p><a href = "https://pt.kle.cz/pt_BR/germanio.html" >Germânio</a> </p></td>
-        <td class="rosa">33<br>As<br> <p><a href = "https://pt.kle.cz/pt_BR/arsenio.html" >Arsênio</a> </p></td>
-        <td class="ciano">34<br>Se<br> <p><a href = "https://pt.kle.cz/pt_BR/selenio.html" >Selênio</a> </p></td>
-        <td class="azul">35<br>Br<br> <p><a href = "https://pt.kle.cz/pt_BR/bromo.html" >Bromo</a> </p></td>
-        <td class="roxo">36<br>Kr<br> <p><a href = "https://pt.kle.cz/pt_BR/criptonio.html" >Criptônio</a> </p></td>
-        <tr><!-- quinta linha --> 
-            <td class="laranja">37<br>Rb<br> <p><a href = "https://pt.kle.cz/pt_BR/rubidio.html" >Rubídio</a> </p></td>
-            <td class="vermelha">38<br>Sr<br> <p><a href = "https://pt.kle.cz/pt_BR/estroncio.html" >Estrôncio</a> </p></td>
-            <td class="amarelo">39<br>Y<br> <p><a href = "https://pt.kle.cz/pt_BR/itrio.html" >Ítrio</a> </p></td>
-            <td class="amarelo">40<br>Zr<br> <p><a href = "https://pt.kle.cz/pt_BR/zirconio.html" >Zircônio</a> </p></td>
-            <td class="amarelo">41<br>Nb<br> <p><a href = "https://pt.kle.cz/pt_BR/niobio.html" >Nióbio</a> </p></td>
-            <td class="amarelo">42<br>Mo<br> <p><a href = "https://pt.kle.cz/pt_BR/molibdenio.html" >Molibdênio</a> </p></td>
-            <td class="amarelo">43<br>Tc<br> <p><a href = "https://pt.kle.cz/pt_BR/tecnecio.html" >Tecnécio</a> </p></td>
-            <td class="amarelo">44<br>Ru<br> <p><a href = "https://pt.kle.cz/pt_BR/rutenio.html" >Rutênio</a> </p></td>
-            <td class="amarelo">45<br>Rh<br> <p><a href = "https://pt.kle.cz/pt_BR/rodio.html" >Ródio</a> </p></td>
-            <td class="amarelo">46<br>Pd<br> <p><a href = "https://pt.kle.cz/pt_BR/paladio.html" >Paládio</a> </p></td>
-            <td class="amarelo">47<br>Ag<br> <p><a href = "https://pt.kle.cz/pt_BR/prata.html" >Prata</a> </p></td>
-            <td class="amarelo">48<br>Cd<br> <p><a href = "https://pt.kle.cz/pt_BR/cadmio.html" >Cádmio</a> </p></td>
-            <td class="verde">49<br>In<br> <p><a href = "https://pt.kle.cz/pt_BR/indio.html" >Índio</a> </p></td>
-            <td class="verde">50<br>Sn<br> <p><a href = "https://pt.kle.cz/pt_BR/estanho.html" >Estanho</a> </p></td>
-            <td class="rosa">51<br>Sb<br> <p><a href = "https://pt.kle.cz/pt_BR/antimonio.html" >Antimônio</a> </p></td>
-            <td class="ciano">52<br>Te<br> <p><a href = "https://pt.kle.cz/pt_BR/telurio.html" >Telúrio</a> </p></td>
-            <td class="azul">53<br>I<br> <p><a href = "https://pt.kle.cz/pt_BR/iodo.html" >Iodo</a> </p></td>
-            <td class="roxo">54<br>Xe<br> <p><a href = "https://pt.kle.cz/pt_BR/xenonio.html" >Xenônio</a> </p></td>
-            <tr><!-- sexta linha --> 
-                <td class="laranja">55<br>Cs<br> <p><a href = "https://pt.kle.cz/pt_BR/cesio.html" >Césio</a> </p></td>
-                <td class="vermelha">56<br>Ba<br> <p><a href = "https://pt.kle.cz/pt_BR/bario.html" >Bário</a> </p></td>
-                <td class="branco"><br><br> </td>
-                <td class="amarelo">72<br>Hf<br> <p><a href = "https://pt.kle.cz/pt_BR/hafnio.html" >Háfnio</a> </p></td>
-                <td class="amarelo">73<br>Ta<br> <p><a href = "https://pt.kle.cz/pt_BR/tantalo.html" >Tântalo</a> </p></td>
-                <td class="amarelo">74<br>W<br> <p><a href = "https://pt.kle.cz/pt_BR/tungstenio.html" >Tungstênio</a> </p></td>
-                <td class="amarelo">75<br>Re<br> <p><a href = "https://pt.kle.cz/pt_BR/renio.html" >Rênio</a> </p></td>
-                <td class="amarelo">76<br>Os<br> <p><a href = "https://pt.kle.cz/pt_BR/osmio.html" >Ósmio</a> </p></td>
-                <td class="amarelo">77<br>Ir<br> <p><a href = "https://pt.kle.cz/pt_BR/iridio.html" >Irídio</a> </p></td>
-                <td class="amarelo">78<br>Pt<br> <p><a href = "https://pt.kle.cz/pt_BR/platina.html" >Platina</a> </p></td>
-                <td class="amarelo">79<br>Au<br> <p><a href = "https://pt.kle.cz/pt_BR/ouro.html" >Ouro</a> </p></td>
-                <td class="amarelo">80<br>Hg<br> <p><a href = "https://pt.kle.cz/pt_BR/mercurio.html" >Mercúrio</a> </p></td>
-                <td class="verde">81<br>Tl<br> <p><a href = "https://pt.kle.cz/pt_BR/talio.html" >Tálio</a> </p></td>
-                <td class="verde">82<br>Pb<br> <p><a href = "https://pt.kle.cz/pt_BR/chumbo.html" >Chumbo</a> </p></td>
-                <td class="verde">83<br>Bi<br> <p><a href = "https://pt.kle.cz/pt_BR/bismuto.html" >Bismuto</a> </p></td>
-                <td class="ciano">84<br>Po<br> <p><a href = "https://pt.kle.cz/pt_BR/polonio.html" >Polônio</a> </p></td>
-                <td class="azul">85<br>At<br> <p><a href = "https://pt.kle.cz/pt_BR/astato.html" >Astáto</a> </p></td>
-                <td class="roxo">86<br>Rn<br> <p><a href = "https://pt.kle.cz/pt_BR/radonio.html" >Radônio</a> </p></td>
-                <tr><!-- sétima linha --> 
-                    <td class="laranja">87<br>Fr<br> <p><a href = "https://pt.kle.cz/pt_BR/francio.html" >Frâncio</a> </p></td>
-                   <td class="vermelha">88<br>Ra<br> <p><a href = "https://pt.kle.cz/pt_BR/radio.html" >Rádio</a> </p></td>
-                   <td class="branco"><br><br> </td>
-                   <td class="amarelo">104<br>Rf<br> <p><a href = "https://pt.kle.cz/pt_BR/rutherfordio.html" >Rutherfórdio</a> </p></td>
-                   <td class="amarelo">105<br>Db<br> <p><a href = "https://pt.kle.cz/pt_BR/dubnio.html" >Dúbnio</a> </p></td>
-                   <td class="amarelo">106<br>Sg<br> <p><a href = "https://pt.kle.cz/pt_BR/seaborgio.html" >Seabórgio</a> </p></td>
-                   <td class="amarelo">107<br>Bh<br> <p><a href = "https://pt.kle.cz/pt_BR/bohrio.html" >Bóhrio</a> </p></td>
-                   <td class="amarelo">108<br>Hs<br> <p><a href = "https://pt.kle.cz/pt_BR/hassio.html" >Hássio</a> </p></td>
-                   <td class="amarelo">109<br>Mt<br> <p><a href = "https://pt.kle.cz/pt_BR/meitnerio.html" >Meitnério</a> </p></td>
-                   <td class="amarelo">110<br>Ds<br> <p><a href = "https://pt.kle.cz/pt_BR/darmstadtio.html" >Darmstádtio</a> </p></td>
-                   <td class="amarelo">111<br>Rg<br> <p><a href = "https://pt.kle.cz/pt_BR/roentgenio.html" >Roentgênio</a> </p></td>
-                   <td class="amarelo">112<br>Cn<br> <p><a href = "https://pt.kle.cz/pt_BR/copernicio.html" >Copernício</a> </p></td>
-                   <td class="verde">113<br>Nh<br> <p><a href = "https://pt.kle.cz/pt_BR/nihonium.html" >Nihônio</a> </p></td>
-                   <td class="verde">114<br>Fl<br> <p><a href = "https://pt.kle.cz/pt_BR/flerovio.html" >Fleróvio</a> </p></td>
-                   <td class="verde">115<br>Mc<br> <p><a href = "https://pt.kle.cz/pt_BR/moscovium.html" >Moscóvio</a> </p></td>
-                   <td class="verde">116<br>Lv<br> <p><a href = "https://pt.kle.cz/pt_BR/livermorio.html" >Livermório</a> </p></td>
-                   <td class="azul">117<br>Ts<br> <p><a href = "https://pt.kle.cz/pt_BR/tennessine.html" >Tennessine</a> </p></td>
-                  <td class="roxo">118<br>Og<br> <p><a href = "https://pt.kle.cz/pt_BR/oganesson.html" >Oganessônio</a> </p></td>
-                  <tr><!-- oitava linha --> 
-                    <td class=""><br><br> </td>
-                    
-                  <tr><!-- nona linha --> 
-                    <td class=""><br><br> </td>
-                    <td class=""><br><br> </td>
-                    <td class=""><br><br> </td>
-                    <td class="magenta">57<br>La<br>  <p><a href = "https://pt.kle.cz/pt_BR/lantanio.html" >Lantânio</a> </p></td>
-                    <td class="magenta">58<br>Ce<br> <p><a href = "https://pt.kle.cz/pt_BR/cerio.html" >Cério</a> </p></td>
-                    <td class="magenta">59<br>Pr<br> <p><a href = "https://pt.kle.cz/pt_BR/praseodimio.html" >Praseódmio</a> </p></td>
-                    <td class="magenta">60<br>Nd<br> <p><a href = "https://pt.kle.cz/pt_BR/neodimio.html" >Neódimio</a> </p></td>
-                    <td class="magenta">61<br>Pm<br> <p><a href = "https://pt.kle.cz/pt_BR/promecio.html" >Promécio</a> </p></td>
-                    <td class="magenta">62<br>Sm<br> <p><a href = "https://pt.kle.cz/pt_BR/samario.html" >Samário</a> </p></td>
-                    <td class="magenta">63<br>Eu<br> <p><a href = "https://pt.kle.cz/pt_BR/europio.html" >Európio</a> </p></td>
-                    <td class="magenta">64<br>Gd<br> <p><a href = "https://pt.kle.cz/pt_BR/gadolinio.html" >Gadolinio</a> </p></td>
-                    <td class="magenta">65<br>Tb<br> <p><a href = "https://pt.kle.cz/pt_BR/terbio.html" >Térbio</a> </p></td>
-                    <td class="magenta">66<br>Dy<br> <p><a href = "https://pt.kle.cz/pt_BR/disprosio.html" >Disprósio</a> </p></td>
-                    <td class="magenta">67<br>Ho<br> <p><a href = "https://pt.kle.cz/pt_BR/holmio.html" >Hólmio</a> </p></td>
-                    <td class="magenta">68<br>Er<br> <p><a href = "https://pt.kle.cz/pt_BR/erbio.html" >Érbio</a> </p></td>
-                    <td class="magenta">69<br>Tm<br> <p><a href = "https://pt.kle.cz/pt_BR/tulio.html" >Túlio</a> </p></td>
-                    <td class="magenta">70<br>Yb<br> <p><a href = "https://pt.kle.cz/pt_BR/iterbio.html" >Itérbio</a> </p></td>
-                    <td class="magenta">71<br>Lu<br> <p><a href = "https://pt.kle.cz/pt_BR/lutecio.html" >Lutécio</a> </p></td>
-                    <tr><!-- décima linha --> 
-                        <td class=""><br><br> </td>
-                        <td class=""><br><br> </td>
-                        <td class=""><br><br> </td>
-                        <td class="neon">89<br>Ac<br> <p><a href = "https://pt.kle.cz/pt_BR/actinio.html" >Actínio</a> </p></td>
-                        <td class="neon">90<br>Th<br> <p><a href = "https://pt.kle.cz/pt_BR/torio.html" >Tório</a> </p></td>
-                        <td class="neon">91<br>Pa<br> <p><a href = "https://pt.kle.cz/pt_BR/protactinio.html" >Protacnío</a> </p></td>
-                        <td class="neon">92<br>U<br> <p><a href = "https://pt.kle.cz/pt_BR/uranio.html" >Urânio</a> </p></td>
-                        <td class="neon">93<br>Np<br> <p><a href = "https://pt.kle.cz/pt_BR/neptunio.html" >Netúnio</a> </p></td>
-                        <td class="neon">94<br>Pu<br> <p><a href = "https://pt.kle.cz/pt_BR/plutonio.html" >Plutônio</a> </p></td>
-                        <td class="neon">95<br>Am<br> <p><a href = "https://pt.kle.cz/pt_BR/americio.html" >Amerício</a> </p></td>
-                        <td class="neon">96<br>Cm<br><p><a href = "https://pt.kle.cz/pt_BR/curio.html" >Cúrio</a> </p></td>
-                        <td class="neon">97<br>Bk<br> <p><a href = "https://pt.kle.cz/pt_BR/berquelio.html" >Berquélio</a> </p></td>
-                        <td class="neon">98<br>Cf<br><p><a href = "https://pt.kle.cz/pt_BR/californio.html" >Califórnio</a> </p></td>
-                        <td class="neon">99<br>Es<br><p><a href = "https://pt.kle.cz/pt_BR/einstenio.html" >Einstênio</a> </p></td>
-                        <td class="neon">100<br>Fm<br> <p><a href = "https://pt.kle.cz/pt_BR/fermio.html" >Férmio</a> </p></td>
-                        <td class="neon">101<br>Md<br> <p><a href = "https://pt.kle.cz/pt_BR/mendelevio.html" >Mendelévio</a> </p></td>
-                        <td class="neon">102<br>No<br> <p><a href = "https://pt.kle.cz/pt_BR/nobelio.html" >Nobélio</a> </p></td>
-                        <td class="neon">103<br>Lr<br><p><a href = "https://pt.kle.cz/pt_BR/laurencio.html" >Laurêncio</a> </p></td>
-             </tr>    
-         </tr>    
- </tr>
- <caption>
-        <h1>Tabela Periódica</h1>
-    <h2>A Tabela Periódica é um modelo que agrupa todos 
-        os elementos químicos conhecidos e suas propriedades.
-         Eles estão organizados em ordem crescente correspondente 
-         aos números atômicos (número de prótons).</h2>
-            
- </caption>
-</body>
-</html>
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>LEGENDAS</title>
-    <last-child>
-        <style>
-            body{
-                background-color: rgb(255, 255, 255);
-                font-family: Open Sans,Geneva,sans-serif;
-    font-size: 11px;
-    line-height: 1.5;
-    padding: 12px;
-    outline: 10px;
-    border: 10px 10px 10px 10px;
-    background: 100px;
-                }
-          .vermelha{
-            background-color: rgb(254, 79, 79);
-                     }
-          .laranja{background-color: rgb(245, 144, 107);
-                  }
-        .amarelo{
-            background-color: rgb(242, 240, 123);
-                   }
-        .verde{
-            background-color: rgb(135, 254, 135);
-                   }
-        .ciano{
-            background-color: aquamarine;
-                }
-        .azul{
-            background-color: rgb(73, 163, 247);
-            
-        }
-        .roxo{
-            background-color: rgb(170, 91, 244);
-        }
-        .lilás{
-            background-color: rgba(227, 224, 249, 0.967);
-            border-radius: 4px;
-        }
-        .rosa{
-            background-color: pink;
-         }
+      <!--Linha 01-->
+      <div class="tabela1">
+        <tbody>
+          <tr>
+            <td class="nao_metais" onclick="H()">
+              <spam>1</spam>
+              <h1>H</h1>
+              <p>Hidrogênio</p>
+            </td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="gases_nobres" onclick="He()">
+              <spam>2</spam>
+              <h1>He</h1>
+              <p>Hélio</p>
+            </td>
+          </tr>
+          <!--Linha 02-->
+          <tr>
+            <td class="metais_alcalinos" onclick="Li()">
+              <spam>3</spam>
+              <h1>Li</h1>
+              <p>Lítio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Be()">
+              <spam>4</spam>
+              <h1>Be</h1>
+              <p>Berílio</p>
+            </td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="semimetais" onclick="B()">
+              <spam>5</spam>
+              <h1>B</h1>
+              <p>Boro</p>
+            </td>
+            <td class="nao_metais" onclick="C()">
+              <spam>6</spam>
+              <h1>C</h1>
+              <p>Carbono</p>
+            </td>
+            <td class="nao_metais" onclick="N()">
+              <spam>7</spam>
+              <h1>N</h1>
+              <p>Nitrogênio</p>
+            </td>
+            <td class="nao_metais" onclick="O()">
+              <spam>8</spam>
+              <h1>O</h1>
+              <p>Oxigênio</p>
+            </td>
+            <td class="halogenios" onclick="F()">
+              <spam>9</spam>
+              <h1>F</h1>
+              <p>Flúor</p>
+            </td>
+            <td class="gases_nobres" onclick="Ne()">
+              <spam> 10</spam>
+              <h1>Ne</h1>
+              <p>Neônio</p>
+            </td>
+          </tr>
+          <!--Linha 03-->
+          <tr>
+            <td class="metais_alcalinos" onclick="Na()">
+              <spam> 11</spam>
+              <h1>Na</h1>
+              <p>Sódio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Mg()">
+              <spam> 12</spam>
+              <h1>Mg</h1>
+              <p>Magnésio</p>
+            </td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="outros_metais" onclick="Al()">
+              <spam> 13</spam>
+              <h1>Al</h1>
+              <p>Alumínio</p>
+            </td>
+            <td class="semimetais" onclick="Si()">
+              <spam> 14 </spam>
+              <h1>Si</h1>
+              <p>Silìcio</p>
+            </td>
+            <td class="nao_metais" onclick="P()">
+              <spam> 15 </spam>
+              <h1>P</h1>
+              <p>Fósforo</p>
+            </td>
+            <td class="nao_metais" onclick="S()">
+              <spam> 16 </spam>
+              <h1>S</h1>
+              <p>Enxofre</p>
+            </td>
+            <td class="halogenios" onclick="Cl()">
+              <spam> 1° </spam>
+              <h1>Cl</h1>
+              <p>Cloro</p>
+            </td>
+            <td class="gases_nobres" onclick="Ar()">
+              <spam> 18</spam>
+              <h1>Ar</h1>
+              <p>Argônio</p>
+            </td>
+          </tr>
+          <!--Linha 04-->
+          <tr>
+            <td class="metais_alcalinos" onclick="K()">
+              <spam> 19 </spam>
+              <h1>K</h1>
+              <p>Potássio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Ca()">
+              <spam> 20</spam>
+              <h1>Ca</h1>
+              <p>Cálcio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Sc()">
+              <spam> 21</spam>
+              <h1>Sc</h1>
+              <p>Escândio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ti()">
+              <spam> 22 </spam>
+              <h1>Ti</h1>
+              <p>Titânio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="V()">
+              <spam> 23 </spam>
+              <h1>V</h1>
+              <p>Vanádio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Cr()">
+              <spam> 24 </spam>
+              <h1>Cr</h1>
+              <p>Cromo</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Mn()">
+              <spam> 25 </spam>
+              <h1>Mn</h1>
+              <p>Manganês</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Fe()">
+              <spam> 26</spam>
+              <h1>Fe</h1>
+              <p>Ferro</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Co()">
+              <spam> 27</spam>
+              <h1>Co</h1>
+              <p>Cobalto</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ni()">
+              <spam> 28</spam>
+              <h1>Ni</h1>
+              <p>Níquel</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Cu()">
+              <spam> 29</spam>
+              <h1>Cu</h1>
+              <p>Cobre</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Zn()">
+              <spam> 30</spam>
+              <h1>Zn</h1>
+              <p>Zinco</p>
+            </td>
+            <td class="outros_metais" onclick="Ga()">
+              <spam> 31</spam>
+              <h1>Ga</h1>
+              <p>Gálio</p>
+            </td>
+            <td class="semimetais" onclick="Ge()">
+              <spam> 32</spam>
+              <h1>Ge</h1>
+              <p>Germânio</p>
+            </td>
+            <td class="semimetais" onclick="As()">
+              <spam> 33</spam>
+              <h1>As</h1>
+              <p>Arsênio</p>
+            </td>
+            <td class="nao_metais" onclick="Se()">
+              <spam> 34</spam>
+              <h1>Se</h1>
+              <p>Selênio</p>
+            </td>
+            <td class="halogenios" onclick="Br()">
+              <spam> 35</spam>
+              <h1>Br</h1>
+              <p>Bromo</p>
+            </td>
+            <td class="gases_nobres" onclick="Kr()">
+              <spam> 36</spam>
+              <h1>Kr</h1>
+              <p>Criptônio</p>
+            </td>
+          </tr>
+          <!--Linha 05-->
+          <tr>
+            <td class="metais_alcalinos" onclick="Rb()">
+              <spam> 37</spam>
+              <h1>Rb</h1>
+              <p>Rubídio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Sr()">
+              <spam> 38</spam>
+              <h1>Sr</h1>
+              <p>Estrôncio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Y()">
+              <spam> 39 </spam>
+              <h1>Y</h1>
+              <p>Ítrio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Zr()">
+              <spam> 40</spam>
+              <h1>Zr</h1>
+              <p>Zircônio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Nb()">
+              <spam> 41</spam>
+              <h1>Nb</h1>
+              <p>Nióbio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Mo()">
+              <spam> 42</spam>
+              <h1>Mo</h1>
+              <p>Molibdênio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Tc()">
+              <spam> 43</spam>
+              <h1>Tc</h1>
+              <p>Tecnécio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ru()">
+              <spam> 44</spam>
+              <h1>Ru</h1>
+              <p>Rutênio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Rh()">
+              <spam> 45</spam>
+              <h1>Rh</h1>
+              <p>Ródio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Pd()">
+              <spam> 46</spam>
+              <h1>Pd</h1>
+              <p>Paládio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ag()">
+              <spam> 47</spam>
+              <h1>Ag</h1>
+              <p>Prata</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Cd()">
+              <spam> 48</spam>
+              <h1>Cd</h1>
+              <p>Cádmio</p>
+            </td>
+            <td class="outros_metais" onclick="In()">
+              <spam> 49</spam>
+              <h1>In</h1>
+              <p>Índio</p>
+            </td>
+            <td class="outros_metais" onclick="Sn()">
+              <spam> 50</spam>
+              <h1>Sn</h1>
+              <p>Estanho</p>
+            </td>
+            <td class="semimetais" onclick="Sb()">
+              <spam> 51</spam>
+              <h1>Sb</h1>
+              <p>Antimônio</p>
+            </td>
+            <td class="semimetais" onclick="Te()">
+              <spam> 52</spam>
+              <h1>Te</h1>
+              <p>Telúrio</p>
+            </td>
+            <td class="halogenios" onclick="I()">
+              <spam> 53</spam>
+              <h1>I</h1>
+              <p>Iodo</p>
+            </td>
+            <td class="gases_nobres" onclick="Xe()">
+              <spam> 54</spam>
+              <h1>Xe</h1>
+              <p>Xenônio</p>
+            </td>
+          </tr>
+          <!--Linha 06-->
+          <tr>
+            <td class="metais_alcalinos" onclick="Cs()">
+              <spam> 55</spam>
+              <h1>Cs</h1>
+              <p>Césio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Ba()">
+              <spam> 56</spam>
+              <h1>Ba</h1>
+              <p>Bário</p>
+            </td>
+            <td>
+              <spam>57- 71</spam>
+              <h1></h1>
+              <p></p>
+            </td>
+            <td class="metais_de_transicao" onclick="Hf()">
+              <spam> 72</spam>
+              <h1>Hf</h1>
+              <p>Háfnio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ta()">
+              <spam> 73</spam>
+              <h1>Ta</h1>
+              <p>Tântalo</p>
+            </td>
+            <td class="metais_de_transicao" onclick="W()">
+              <spam> 74</spam>
+              <h1>W</h1>
+              <p>Tungstênio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Re()">
+              <spam> 75</spam>
+              <h1>Re</h1>
+              <p>Rênio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Os()">
+              <spam> 76</spam>
+              <h1>Os</h1>
+              <p>Ósmio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ir()">
+              <spam> 77</spam>
+              <h1>Ir</h1>
+              <p>Irídio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Pt()">
+              <spam> 78° </spam>
+              <h1>Pt</h1>
+              <p>Platina</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Au()">
+              <spam> 79</spam>
+              <h1>Au</h1>
+              <p>Ouro</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Hg()">
+              <spam> 80 </spam>
+              <h1>Hg</h1>
+              <p>Mecúrio</p>
+            </td>
+            <td class="outros_metais" onclick="Ti()">
+              <spam> 81</spam>
+              <h1>Ti</h1>
+              <p>Tálio</p>
+            </td>
+            <td class="outros_metais" onclick="Pb()">
+              <spam> 82</spam>
+              <h1>Pb</h1>
+              <p>Chumbo</p>
+            </td>
+            <td class="outros_metais" onclick="Bi()">
+              <spam> 83</spam>
+              <h1>Bi</h1>
+              <p>Bismuto</p>
+            </td>
+            <td class="semimetais" onclick="Po()">
+              <spam> 84</spam>
+              <h1>Po</h1>
+              <p>Polônio</p>
+            </td>
+            <td class="halogenios" onclick="At()">
+              <spam> 85</spam>
+              <h1>At</h1>
+              <p>Astáto</p>
+            </td>
+            <td class="gases_nobres" onclick="Rn()">
+              <spam> 86</spam>
+              <h1>Rn</h1>
+              <p>Radônio</p>
+            </td>
+          </tr>
+          <!--Linha 07-->
+          <tr>
+            <td class="metais_alcalinos" onclick="Fr()">
+              <spam> 87</spam>
+              <h1>Fr</h1>
+              <p>Frâncio</p>
+            </td>
+            <td class="metais_alcalino-terrosos" onclick="Ra()">
+              <spam> 88</spam>
+              <h1>Ra</h1>
+              <p>Rádio</p>
+            </td>
+            <td>
+              <spam> 89-103</spam>
+              <h1></h1>
+              <p></p>
+            </td>
+            <td class="metais_de_transicao" onclick="Rf()">
+              <spam> 104 </spam>
+              <h1>Rf</h1>
+              <p>Rutherfórdio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Db()">
+              <spam> 105 </spam>
+              <h1>Db</h1>
+              <p>Dúbnio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Sg()">
+              <spam> 106 </spam>
+              <h1>Sg</h1>
+              <p>Seabórgio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Bh()">
+              <spam> 107 </spam>
+              <h1>Bh</h1>
+              <p>Bóhrio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Hs()">
+              <spam> 108 </spam>
+              <h1>Hs</h1>
+              <p>Hássio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Mt()">
+              <spam> 109 </spam>
+              <h1>Mt</h1>
+              <p>Meitnério</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Ds()">
+              <spam> 110 </spam>
+              <h1>Ds</h1>
+              <p>Darmstácio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Rg()">
+              <spam> 111 </spam>
+              <h1>Rg</h1>
+              <p>Roentgénio</p>
+            </td>
+            <td class="metais_de_transicao" onclick="Cn()">
+              <spam> 112 </spam>
+              <h1>Cn</h1>
+              <p>Copernício</p>
+            </td>
+            <td class="outros_metais" onclick="Nh()">
+              <spam> 113 </spam>
+              <h1>Nh</h1>
+              <p>Nipônio</p>
+            </td>
+            <td class="outros_metais" onclick="Fl()">
+              <spam> 114 </spam>
+              <h1>Fl</h1>
+              <p>Fleróvio</p>
+            </td>
+            <td class="outros_metais" onclick="Mc()">
+              <spam> 115 </spam>
+              <h1>Mc</h1>
+              <p>Moscóvio</p>
+            </td>
+            <td class="outros_metais" onclick="Lv()">
+              <spam> 116 </spam>
+              <h1>Lv</h1>
+              <p>Livermório</p>
+            </td>
+            <td class="halogenios" onclick="Ts()">
+              <spam> 117 </spam>
+              <h1>Ts</h1>
+              <p>Tenesso</p>
+            </td>
+            <td class="gases_nobres" onclick="Og()">
+              <spam> 118 </spam>
+              <h1>Og</h1>
+              <p>Oganessônio</p>
+            </td>
+            <!--Linha 08-->
+          </tr>
+          <tr>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="Lantanideos" onclick="La()">
+              <spam> 57</spam>
+              <h1>La</h1>
+              <p>Lântanio</p>
+            </td>
+            <td class="Lantanideos" onclick="Ce()">
+              <spam> 58</spam>
+              <h1>Ce</h1>
+              <p>Cério</p>
+            </td>
+            <td class="Lantanideos" onclick="Pr()">
+              <spam> 59</spam>
+              <h1>Pr</h1>
+              <p>Praseodímio</p>
+            </td>
+            <td class="Lantanideos" onclick="Nd()">
+              <spam> 60</spam>
+              <h1>Nd</h1>
+              <p>Neodímio</p>
+            </td>
+            <td class="Lantanideos" onclick="Pm()">
+              <spam> 61</spam>
+              <h1>Pm</h1>
+              <p>Promécio</p>
+            </td>
+            <td class="Lantanideos" onclick="Sm()">
+              <spam> 62 </spam>
+              <h1>Sm</h1>
+              <p>Samário</p>
+            </td>
+            <td class="Lantanideos" onclick="Eu()">
+              <spam> 63</spam>
+              <h1>Eu</h1>
+              <p>Európio</p>
+            </td>
+            <td class="Lantanideos" onclick="Gd()">
+              <spam> 64</spam>
+              <h1>Gd</h1>
+              <p>Gadolínio</p>
+            </td>
+            <td class="Lantanideos" onclick="Tb()">
+              <spam> 65</spam>
+              <h1>Tb</h1>
+              <p>Térbio</p>
+            </td>
+            <td class="Lantanideos" onclick="Dy()">
+              <spam> 66</spam>
+              <h1>Dy</h1>
+              <p>Disprósio</p>
+            </td>
+            <td class="Lantanideos" onclick="Ho()">
+              <spam> 67</spam>
+              <h1>Ho</h1>
+              <p>Hólmio</p>
+            </td>
+            <td class="Lantanideos" onclick="Er()">
+              <spam> 68</spam>
+              <h1>Er</h1>
+              <p>Érbio</p>
+            </td>
+            <td class="Lantanideos" onclick="Tm()">
+              <spam> 69</spam>
+              <h1>Tm</h1>
+              <p>Túlio</p>
+            </td>
+            <td class="Lantanideos" onclick="Yb()">
+              <spam> 70</spam>
+              <h1>Yb</h1>
+              <p>Itérbio</p>
+            </td>
+            <td class="Lantanideos" onclick="Lu()">
+              <spam> 71</spam>
+              <h1>Lu</h1>
+              <p>Lutécio</p>
+            </td>
+          </tr>
+          <!--Linha 09-->
+          <tr>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="td1"></td>
+            <td class="Actinidios" onclick="Ac()">
+              <spam>89</spam>
+              <h1>Ac</h1>
+              <p>Actínio</p>
+            </td>
+            <td class="Actinidios" onclick="Th()">
+              <spam>90</spam>
+              <h1>Th</h1>
+              <p>Tório</p>
+            </td>
+            <td class="Actinidios" onclick="Pa()">
+              <spam>91</spam>
+              <h1>Pa</h1>
+              <p>Protactínio</p>
+            </td>
+            <td class="Actinidios" onclick="U()">
+              <spam>92</spam>
+              <h1>U</h1>
+              <p>Urânio</p>
+            </td>
+            <td class="Actinidios" onclick="Ne()">
+              <spam>93</spam>
+              <h1>Np</h1>
+              <p>Netúnio</p>
+            </td>
+            <td class="Actinidios" onclick="Pu()">
+              <spam>94</spam>
+              <h1>Pu</h1>
+              <p>Plutônio</p>
+            </td>
+            <td class="Actinidios" onclick="Am()">
+              <spam>95</spam>
+              <h1>Am</h1>
+              <p>Amerício</p>
+            </td>
+            <td class="Actinidios" onclick="Cm()">
+              <spam>96</spam>
+              <h1>Cm</h1>
+              <p>Cúrio</p>
+            </td>
+            <td class="Actinidios" onclick="Bk()">
+              <spam>97</spam>
+              <h1>Bk</h1>
+              <p>Berquélio</p>
+            </td>
+            <td class="Actinidios" onclick="Cf()">
+              <spam>98</spam>
+              <h1>Cf</h1>
+              <p>Califórnio</p>
+            </td>
+            <td class="Actinidios" onclick="Es()">
+              <spam>99</spam>
+              <h1>Es</h1>
+              <p>Einsténio</p>
+            </td>
+            <td class="Actinidios" onclick="Fm()">
+              <spam>100</spam>
+              <h1>Fm</h1>
+              <p>Férmio</p>
+            </td>
+            <td class="Actinidios" onclick="Md()">
+              <spam>101</spam>
+              <h1>Md</h1>
+              <p>Mendelévio</p>
+            </td>
+            <td class="Actinidios" onclick="No()">
+              <spam>102</spam>
+              <h1>No</h1>
+              <p>Nobélio</p>
+            </td>
+            <td class="Actinidios" onclick="Lr()">
+              <spam>103</spam>
+              <h1>Lr</h1>
+              <p>Laurêncio</p>
+            </td>
+          </tr>
+        </tbody>
+      </div>
+    </table>
+    <!---->
+    <script>
+      function H() {
+        alert(" MASSA ATÔMICA: 1,00797"); }
+    </script>
+    <script>
+      function He() {
+        alert("MASSA ATÔMICA: 4,0026");
+      }
+    </script>
+    <script>
+      function Li() {
+        alert("MASSA ATÔMICA: 6,941");      }
+    </script>
+    <script>
+      function Be() {
+        alert("MASSA ATÔMICA: 	9,0122");      }
+    </script>
+    <script>
+      function B() {
+        alert("MASSA ATÔMICA: 10,811");      }
+    </script>
+    <script>
+      function C() {
+        alert("MASSA ATÔMICA: 12,01115");      }
+    </script>
+    <script>
+      function N() {
+        alert("MASSA ATÔMICA: 	14,0067");      }
+    </script>
+    <script>
+      function O() {
+        alert("MASSA ATÔMICA: 15,9994");      }
+    </script>
+    <script>
+      function F() {
+        alert("MASSA ATÔMICA: 	18,9984");      }
+    </script>
+    <script>
+      function Ne() {
+        alert("MASSA ATÔMICA: 	20,183");      }
+    </script>
+    <script>
+      function Na() {
+        alert("MASSA ATÔMICA: 	22,9898");      }
+    </script>
+    <script>
+      function Mg() {
+        alert("MASSA ATÔMICA: 24,312");      }
+    </script>
+    <script>
+      function Al() {
+        alert("MASSA ATÔMICA: 	26,9815");      }      
+    </script>
+    <script>
+      function Si() {
+        alert("MASSA ATÔMICA: 	28,086");      }
+    </script>
+    <script>
+      function P() {
+        alert("MASSA ATÔMICA: 	30,9738");      }
+    </script>
+    <script>
+      function S() {
+        alert("MASSA ATÔMICA: 	32,064");      }
+    </script>
+    <script>
+      function Cl() {
+        alert("MASSA ATÔMICA: 35,453");      }
+    </script>
+    <script>
+      function Ar() {
+        alert("MASSA ATÔMICA: 39,948");      }
+    </script>
+    <script>
+      function K() {
+        alert("MASSA ATÔMICA: 39,098");      }
+    </script>
+    <script>
+      function Ca() {
+        alert("MASSA ATÔMICA: 	40,08");      }
+    </script>
+    <script>
+      function Sc() {
+        alert("MASSA ATÔMICA: 44,956");      }
+    </script>
+    <script>
+      function Ti() {
+        alert("MASSA ATÔMICA: 47,90");      }
+    </script>
+    <script>
+      function V() {
+        alert("MASSA ATÔMICA: 50,942");      }
+    </script>
+    <script>
+      function Cr() {
+        alert("MASSA ATÔMICA: 51996");      }
+    </script>
+    <script>
+      function Mn() {
+        alert("MASSA ATÔMICA: 54,9380");      }
+    </script>
+    <script>
+      function Fe() {
+        alert("MASSA ATÔMICA: 55,847");      }
+    </script>
+    <script>
+      function Co() {
+        alert("MASSA ATÔMICA: 	58,93");      }
+    </script>
+    <script>
+      function Ni() {
+        alert("MASSA ATÔMICA: 58,69");      }
+    </script>
+    <script>
+      function Cu() {
+        alert("MASSA ATÔMICA: 63,55");      }
+    </script>
+    <script>
+      function Zn() {
+        alert("MASSA ATÔMICA: 65,38");      }
+    </script>
+    <script>
+      function Ga() {
+        alert("MASSA ATÔMICA: 	69,72");      }
+    </script>
+    <script>
+      function Ge() {
+        alert("MASSA ATÔMICA: 72,59");      }
+    </script>
+    <script>
+      function As() {
+        alert("MASSA ATÔMICA: (210)");      }
+    </script>
+    <script>
+      function Se() {
+        alert("MASSA ATÔMICA: 78,96");      }
+    </script>
+    <script>
+      function Br() {
+        alert("MASSA ATÔMICA: 79,909");      }
+    </script>
+    <script>
+      function Kr() {
+        alert("MASSA ATÔMICA: 83,80");      }
+    </script>
+    <script>
+      function Rb() {
+        alert("MASSA ATÔMICA: 85,47");      }
+    </script>
+    <script>
+      function Sr() {
+        alert("MASSA ATÔMICA: 87,62");      }
+    </script>
+    <script>
+      function Y() {
+        alert("MASSA ATÔMICA: 88,905");      }
+    </script>
+    <script>
+      function Zr() {
+        alert("MASSA ATÔMICA: 91,22");      }
+    </script>
+    <script>
+      function Nb() {
+        alert("MASSA ATÔMICA: 92,906");      }
+    </script>
+    <script>
+      function Mo() {
+        alert("MASSA ATÔMICA: 95,94");      }
+    </script>
+    <script>
+      function Tc() {
+        alert("MASSA ATÔMICA: (98)");      }
+    </script>
+    <script>
+      function Ru() {
+        alert("MASSA ATÔMICA: 101,07");      }
+    </script>
+    <script>
+      function Rh() {
+        alert("MASSA ATÔMICA: 	(261)");      }
+    </script>
+    <script>
+      function Pd() {
+        alert("MASSA ATÔMICA: 140,907");      }
+    </script>
+    <script>
+      function Ag() {
+        alert("MASSA ATÔMICA: 39,948");      }
+    </script>
+    <script>
+      function Cd() {
+        alert("MASSA ATÔMICA: 112,40");      }
+    </script>
+    <script>
+      function In() {
+        alert("MASSA ATÔMICA: 114,82");      }
+    </script>
+    <script>
+      function Sn() {
+        alert("MASSA ATÔMICA: 118,69");      }
+    </script>
+    <script>
+      function Sb() {
+        alert("MASSA ATÔMICA: 121,75");      }
+    </script>
+    <script>
+      function Te() {
+        alert("MASSA ATÔMICA: 127,60");      }
+    </script>
+    <script>
+      function I() {
+        alert("MASSA ATÔMICA: 126,9044");      }
+    </script>
+    <script>
+      function Xe() {
+        alert("MASSA ATÔMICA: 131,38");      }
+    </script>
+    <script>
+      function Cs() {
+       alert("MASSA ATÔMICA: 132,905 ");      }
+    </script>
+    <script>
+      function Ba() {
+        alert("MASSA ATÔMICA: 137,34");      }
+    </script>
+    <script>
+      function La() {
+        alert("MASSA ATÔMICA: 138,91");      }
+    </script>
+    <script>
+      function Ce() {
+        alert("MASSA ATÔMICA: 140,12");      }
+    </script>
+    <script>
+      function Pr() {
+        alert("MASSA ATÔMICA: ");      }
+    </script>
+    <script>
+      function Nd() {
+        alert("MASSA ATÔMICA: ");      }
+    </script>
+    <script>
+      function Pm() {
+        alert("O promécio é usado em baterias elétricas especiais, úteis em dispositivos como marcapassos, rádios de comunicação e mísseis guiados.");
+      }
+    </script>
+    <script>
+      function Sm() {
+        alert("MASSA ATÔMICA: ");      }
+    </script>
+    <script>
+      function Eu() {
+        alert("MASSA ATÔMICA: 151,96");      }
+    </script>
+    <script>
+      function Gd() {
+        alert("MASSA ATÔMICA: 157,25");      }
+    </script>
+    <script>
+      function Tb() {
+        alert("MASSA ATÔMICA: 158,924");      }
+    </script>
+    <script>
+      function Dy() {
+        alert("MASSA ATÔMICA: 162,50");      }
+    </script>
+    <script>
+      function Ho() {
+        alert("MASSA ATÔMICA: 164,930");      }
+    </script>
+    <script>
+      function Er() {
+        alert("MASSA ATÔMICA: 167,26");      }
+    </script>
+    <script>
+      function Tm() {
+        alert("MASSA ATÔMICA: 168,934");      }
+    </script>
+    <script>
+      function Yb() {
+        alert("MASSA ATÔMICA: 173,04");      }
+    </script>
+    <script>
+      function Lu() {
+        alert("MASSA ATÔMICA: 174,97");      }
+    </script>
+    <script>
+      function Hf() {
+        alert("MASSA ATÔMICA: 178,49");      }
+    </script>
+    <script>
+      function Ta() {
+        alert("MASSA ATÔMICA: 204,37");      }
+    </script>
+    <script>
+      function W() {
+        alert("MASSA ATÔMICA: 183,85");      }
+    </script>
+    <script>
+      function Re() {
+        alert("MASSA ATÔMICA: 186,2");      }
+    </script>
+    <script>
+      function Os() {
+        alert("MASSA ATÔMICA: 190,2");      }
+    </script>
+    <script>
+      function Ir() {
+        alert("MASSA ATÔMICA: 192,2");      }
+    </script>
+    <script>
+      function Pt() {
+        alert("MASSA ATÔMICA: 195,09");      }
+    </script>
+    <script>
+      function Au() {
+        alert("MASSA ATÔMICA: 196,967");      }
+    </script>
+    <script>
+      function Hg() {
+        alert("MASSA ATÔMICA: 200,59 ");      }
+    </script>
+    <script>
+      function Tl() {
+        alert("MASSA ATÔMICA: 204,37");      }
+    </script>
+    <script>
+      function Pb() {
+        alert("MASSA ATÔMICA: 207,19");      }
+    </script>
+    <script>
+      function Bi() {
+        alert("MASSA ATÔMICA: 209 ");      }
+    </script>
+    <script>
+      function Po() {
+        alert("MASSA ATÔMICA:	(209) ");      }
+    </script>
+    <script>
+      function At() {
+        alert("MASSA ATÔMICA: (209)");      }
+    </script>
+    <script>
+      function Rn() {
+        alert("MASSA ATÔMICA: (222)");      }
+    </script>
+    <script>
+      function Fr() {
+        alert("MASSA ATÔMICA: (223)");      }
+    </script>
+    <script>
+      function Ra() {
+        alert("MASSA ATÔMICA: (226)");      }
+    </script>
+    <script>
+      function Ac() {
+        alert("MASSA ATÔMICA: (227)");      }
+    </script>
+    <script>
+      function Th() {
+        alert("MASSA ATÔMICA: 232,0");      }
+    </script>
+    <script>
+      function Pa() {
+        alert("MASSA ATÔMICA: (231)");      }
+    </script>
+    <script>
+      function U() {
+        alert("MASSA ATÔMICA: 238");      }
+    </script>
+    <script>
+      function Np() {
+        alert("MASSA ATÔMICA: (237)");      }
+    </script>
+    <script>
+      function Pu() {
+        alert("MASSA ATÔMICA: (224) ");      }
+    </script>
+    <script>
+      function Am() {
+        alert("MASSA ATÔMICA: (243)");      }
+    </script>
+    <script>
+      function Cm() {
+        alert("MASSA ATÔMICA: (247)");      }
+    </script>
+    <script>
+      function Bk() {
+        alert("MASSA ATÔMICA: (247)");      }
+    </script>
+    <script>
+      function Cf() {
+        alert("MASSA ATÔMICA: (251)");      }
+    </script>
+    <script>
+      function Es() {
+        alert("MASSA ATÔMICA: (252)");      }
+    </script>
+    <script>
+      function Fm() {
+        alert("MASSA ATÔMICA: (257)");      }
+    </script>
+    <script>
+      function Md() {
+        alert("MASSA ATÔMICA: (258)");      }
+    </script>
+    <script>
+      function No() {
+        alert("MASSA ATÔMICA: (259)");      }
+    </script>
+    <script>
+      function Lr() {
+        alert("MASSA ATÔMICA: (260)");      }
+    </script>
+    <script>
+      function Rf() {
+        alert("MASSA ATÔMICA: (261)");      }
+    </script>
+    <script>
+      function Db() {
+        alert("MASSA ATÔMICA: (262)");      }
+    </script>
+    <script>
+      function Sg() {
+        alert("MASSA ATÔMICA: 263");      }
+    </script>
+    <script>
+      function Bh() {
+        alert("MASSA ATÔMICA: (262,1)");      }
+    </script>
+    <script>
+      function Hs() {
+        alert("MASSA ATÔMICA: (265)");      }
+    </script>
+    <script>
+      function Mt() {
+        alert("MASSA ATÔMICA: (269)");      }
+    </script>
+    <script>
+      function Ds() {
+        alert("MASSA ATÔMICA: (269)");      }
+    </script>
+    <script>
+      function Rg() {
+        alert("MASSA ATÔMICA: (272)");      }
+    </script>
+    <script>
+      function Cn() {
+        alert("MASSA ATÔMICA: 285");      }
+    </script>
+    <script>
+      function Nh() {
+        alert("MASSA ATÔMICA: 284");      }
+    </script>
+    <script>
+      function Fl() {
+        alert("MASSA ATÔMICA:(289) ");      }
+    </script>
+    <script>
+      function Mc() {
+        alert("MASSA ATÔMICA: (288)");      }
+    </script>
+    <script>
+      function Lv() {
+        alert("MASSA ATÔMICA: (292)");      }
+    </script>
+    <script>
+      function Ts() {
+        alert("MASSA ATÔMICA: 294");      }
+    </script>
+    <script>
+      function Og() {
+        alert("MASSA ATÔMICA: 294");
+      }
+    </script>
    
-        .magenta{
-            background-color: rgb(236, 92, 205);
-          }
-     .neon{
-            background-color: deeppink;
-         }
-      
-        </style>
-</head>
-<body>
-    <table border="0">
-        <h1>
-<head>legendas </head> </h1>
-        <tr><!-- linha 1 linha --> 
-    <td class="laranja"> <br> METAIS ALCALINOS <br> </td>
-    <td class="vermelha"><br> METAIS ALCALINOS TERROSOS <br> </td>
-    <td class="amarelo"><br> ELEMENTOS DE TRANSIÇÃO <br> </td>
-    
-    </tr>
-    <tr><!-- linha 2 linha -->
-        <td class="verde"><br> OUTROS METAIS  <br> </td>
-    <td class="rosa"><br> METALÓIDE  <br> </td>
-    <td class="ciano"><br> NÃO METAIS  <br> </td>
-
-    <tr><!-- linha 3 linha -->
-        <td class="azul"><br> HALOGÊNIOS <br></td>
-        <td class="roxo"><br> GASES NOBRES <br> </td>
-            <td class="magenta"><br> LATANÍDEOS <br> </td>          
-		
-            <tr><!-- linha 4 linha -->
-                <td class="neon"><br> ACTINÍDEOS <br></td>
-    </tr> 
-</last-child>   
-<table
+  </div>
+  <div>
+      <div class="element_caption element_1 item">Não metais</div>
+      <div class="element_caption element_2 item">Gases nobres</div>
+      <div class="element_caption element_3 item">Metais alcalinos</div>
+      <div class="element_caption element_4 item">Metais alcalino-terrosos</div>
+      <div class="element_caption element_5 item">Semimetais</div>
+    </div>
+    <div>
+      <div class="element_caption element_6 item2">Halogênios</div>
+      <div class="element_caption element_7 item3">Outros metais</div>
+      <div class="element_caption element_8 item2">Metais de transição</div>
+      <div class="element_caption element_9 item2">Lantanídeos</div>
+      <div class="element_caption element_10 item2">Actinídios</div>
+  </div>
+</div>
+  </body>
+</html>
+<!--referencia
+https://www.ifmg.edu.br/portal/noticias/professoras-e-aluna-do-ifmg-publicam-e-book-com-curiosidades-sobre-a-tabela-periodica/e-book-tabela-periodica-curiosidades-que-voce-precisa-saber-sobre-os-elementos-quimicos.pdf
+https://www.todamateria.com.br/tabela-periodica/-->
